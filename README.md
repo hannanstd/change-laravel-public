@@ -18,7 +18,7 @@ mix.setPublicPath('../public_html/')
     .sass("resources/scss/app.scss", "../public_html/css/main.css")
     ....
 ```
-8- edit `.gitignore` and change all `public/` to `public_html/`.  
+8- edit `.gitignore` and change all `public/` to `public_html/` and add `/laravel-core/` before others.  
 9- run `git rm -rf --cached .` in terminal to update `.gitignore`.  
 ```
 /.idea
